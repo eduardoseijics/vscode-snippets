@@ -1,0 +1,44 @@
+{
+	"debug": {
+		"prefix": "debug",
+		"body": [
+			"echo '<pre>'; print_r($1); echo '</pre>';"
+		],
+		"description": "Debug com print_r"
+	},
+	"debuge": {
+		"prefix": "debuge",
+		"body": [
+			"echo '<pre>'; print_r($1); echo '</pre>';exit;"
+		],
+		"description": "Debug com print_r e exit"
+	},
+	"devug": {
+		"prefix": "debuv",
+		"body": [
+			"echo '<pre>'; var_dump($1); echo '</pre>';"
+		],
+		"description": "Debug com var_dump"
+	},
+	"debuve": {
+		"prefix": "debuve",
+		"body": [
+			"echo '<pre>'; var_dump($1); echo '</pre>';exit;"
+		],
+		"description": "Debug com print_r e exit"
+	},
+  "debul": {
+		"prefix": "debul",
+		"body": [
+			"echo '<pre>'; print_r(__LINE__); echo '</pre>';"
+		],
+		"description": "Debug com print_r e __LINE__"
+	},
+  "debule": {
+		"prefix": "debule",
+		"body": [
+			"echo '<pre>'; print_r(__LINE__); echo '</pre>';exit;"
+		],
+		"description": "Debug com print_r, __LINE__ e exit;"
+	}
+}
